@@ -1,0 +1,22 @@
+{
+  " tests\\sample.test.js basic test" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ef37336b97bb1649",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toHaveText(expected)\n\nExpected string: \"Playwright1\"\nReceived string: \"Playwright\"\nCall log:\n  - expect.toHaveText with timeout 5000ms\n  - waiting for selector \".navbar__inner .navbar__title\"\n  -   selector resolved to <b class=\"navbar__title\">Playwright</b>\n  -   unexpected value \"Playwright\"\n  -   selector resolved to <b class=\"navbar__title\">Playwright</b>\n  -   unexpected value \"Playwright\"\n  -   selector resolved to <b class=\"navbar__title\">Playwright</b>\n  -   unexpected value \"Playwright\"\n  -   selector resolved to <b class=\"navbar__title\">Playwright</b>\n  -   unexpected value \"Playwright\"\n  -   selector resolved to <b class=\"navbar__title\">Playwright</b>\n  -   unexpected value \"Playwright\"\n  -   selector resolved to <b class=\"navbar__title\">Playwright</b>\n  -   unexpected value \"Playwright\"\n  -   selector resolved to <b class=\"navbar__title\">Playwright</b>\n  -   unexpected value \"Playwright\"\n  -   selector resolved to <b class=\"navbar__title\">Playwright</b>\n  -   unexpected value \"Playwright\"\n",
+      "time" : {
+        "start" : 1648978815555,
+        "stop" : 1648978822661,
+        "duration" : 7106
+      }
+    } ]
+  }
+}

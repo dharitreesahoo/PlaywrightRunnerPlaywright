@@ -1,0 +1,26 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "tests\\sample.test.js",
+    "children" : [ {
+      "name" : "basic test",
+      "uid" : "ef37336b97bb1649",
+      "parentUid" : "0e0dc433880e6cfff8b0f9d0ad897f81",
+      "status" : "failed",
+      "time" : {
+        "start" : 1648978815555,
+        "stop" : 1648978822661,
+        "duration" : 7106
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "0e0dc433880e6cfff8b0f9d0ad897f81"
+  } ]
+}

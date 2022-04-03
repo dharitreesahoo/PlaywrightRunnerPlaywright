@@ -1,0 +1,30 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expect(received).toHaveText(expected)\n\nExpected string: \"Playwright1\"\nReceived string: \"Playwright\"\nCall log:\n  - expect.toHaveText with timeout 5000ms\n  - waiting for selector \".navbar__inner .navbar__title\"\n  -   selector resolved to <b class=\"navbar__title\">Playwright</b>\n  -   unexpected value \"Playwright\"\n  -   selector resolved to <b class=\"navbar__title\">Playwright</b>\n  -   unexpected value \"Playwright\"\n  -   selector resolved to <b class=\"navbar__title\">Playwright</b>\n  -   unexpected value \"Playwright\"\n  -   selector resolved to <b class=\"navbar__title\">Playwright</b>\n  -   unexpected value \"Playwright\"\n  -   selector resolved to <b class=\"navbar__title\">Playwright</b>\n  -   unexpected value \"Playwright\"\n  -   selector resolved to <b class=\"navbar__title\">Playwright</b>\n  -   unexpected value \"Playwright\"\n  -   selector resolved to <b class=\"navbar__title\">Playwright</b>\n  -   unexpected value \"Playwright\"\n  -   selector resolved to <b class=\"navbar__title\">Playwright</b>\n  -   unexpected value \"Playwright\"\n",
+      "children" : [ {
+        "name" : "basic test",
+        "uid" : "ef37336b97bb1649",
+        "parentUid" : "90e9996cf56ca7e344886c5b4509bc70",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648978815555,
+          "stop" : 1648978822661,
+          "duration" : 7106
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "90e9996cf56ca7e344886c5b4509bc70"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

@@ -1,0 +1,219 @@
+{
+  "uid" : "ef37336b97bb1649",
+  "name" : "basic test",
+  "fullName" : "basic test",
+  "historyId" : " tests\\sample.test.js basic test",
+  "time" : {
+    "start" : 1648978815555,
+    "stop" : 1648978822661,
+    "duration" : 7106
+  },
+  "status" : "failed",
+  "statusMessage" : "expect(received).toHaveText(expected)\n\nExpected string: \"Playwright1\"\nReceived string: \"Playwright\"\nCall log:\n  - expect.toHaveText with timeout 5000ms\n  - waiting for selector \".navbar__inner .navbar__title\"\n  -   selector resolved to <b class=\"navbar__title\">Playwright</b>\n  -   unexpected value \"Playwright\"\n  -   selector resolved to <b class=\"navbar__title\">Playwright</b>\n  -   unexpected value \"Playwright\"\n  -   selector resolved to <b class=\"navbar__title\">Playwright</b>\n  -   unexpected value \"Playwright\"\n  -   selector resolved to <b class=\"navbar__title\">Playwright</b>\n  -   unexpected value \"Playwright\"\n  -   selector resolved to <b class=\"navbar__title\">Playwright</b>\n  -   unexpected value \"Playwright\"\n  -   selector resolved to <b class=\"navbar__title\">Playwright</b>\n  -   unexpected value \"Playwright\"\n  -   selector resolved to <b class=\"navbar__title\">Playwright</b>\n  -   unexpected value \"Playwright\"\n  -   selector resolved to <b class=\"navbar__title\">Playwright</b>\n  -   unexpected value \"Playwright\"\n",
+  "statusTrace" : "\n    at C:\\Users\\Santosh Kumar Mohapa\\Dharitree\\PlaywrightAllure\\tests\\sample.test.js:13:29\n    at C:\\Users\\Santosh Kumar Mohapa\\Dharitree\\PlaywrightAllure\\tests\\sample.test.js:10:5",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expect(received).toHaveText(expected)\n\nExpected string: \"Playwright1\"\nReceived string: \"Playwright\"\nCall log:\n  - expect.toHaveText with timeout 5000ms\n  - waiting for selector \".navbar__inner .navbar__title\"\n  -   selector resolved to <b class=\"navbar__title\">Playwright</b>\n  -   unexpected value \"Playwright\"\n  -   selector resolved to <b class=\"navbar__title\">Playwright</b>\n  -   unexpected value \"Playwright\"\n  -   selector resolved to <b class=\"navbar__title\">Playwright</b>\n  -   unexpected value \"Playwright\"\n  -   selector resolved to <b class=\"navbar__title\">Playwright</b>\n  -   unexpected value \"Playwright\"\n  -   selector resolved to <b class=\"navbar__title\">Playwright</b>\n  -   unexpected value \"Playwright\"\n  -   selector resolved to <b class=\"navbar__title\">Playwright</b>\n  -   unexpected value \"Playwright\"\n  -   selector resolved to <b class=\"navbar__title\">Playwright</b>\n  -   unexpected value \"Playwright\"\n  -   selector resolved to <b class=\"navbar__title\">Playwright</b>\n  -   unexpected value \"Playwright\"\n",
+    "statusTrace" : "\n    at C:\\Users\\Santosh Kumar Mohapa\\Dharitree\\PlaywrightAllure\\tests\\sample.test.js:13:29\n    at C:\\Users\\Santosh Kumar Mohapa\\Dharitree\\PlaywrightAllure\\tests\\sample.test.js:10:5",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1648978815556,
+        "stop" : 1648978816657,
+        "duration" : 1101
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.newPage",
+        "time" : {
+          "start" : 1648978816492,
+          "stop" : 1648978816657,
+          "duration" : 165
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "step1-----",
+      "time" : {
+        "start" : 1648978816657,
+        "stop" : 1648978817302,
+        "duration" : 645
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "page.goto(https://playwright.dev/)",
+        "time" : {
+          "start" : 1648978816660,
+          "stop" : 1648978817232,
+          "duration" : 572
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "expect.toHaveText",
+        "time" : {
+          "start" : 1648978817234,
+          "stop" : 1648978817302,
+          "duration" : 68
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "step2----",
+      "time" : {
+        "start" : 1648978817302,
+        "stop" : 1648978822468,
+        "duration" : 5166
+      },
+      "status" : "failed",
+      "steps" : [ {
+        "name" : "page.goto(https://playwright.dev/)",
+        "time" : {
+          "start" : 1648978817302,
+          "stop" : 1648978817449,
+          "duration" : 147
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "expect.toHaveText",
+        "time" : {
+          "start" : 1648978817450,
+          "stop" : 1648978822467,
+          "duration" : 5017
+        },
+        "status" : "failed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1648978822468,
+        "stop" : 1648978822661,
+        "duration" : 193
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1648978822618,
+          "stop" : 1648978822645,
+          "duration" : 27
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "66624d98e0f3c7ce",
+      "name" : "screenshot",
+      "source" : "66624d98e0f3c7ce.png",
+      "type" : "image/png",
+      "size" : 95584
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 10,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "tests\\sample.test.js"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "ef37336b97bb1649.json",
+  "parameterValues" : [ ]
+}
